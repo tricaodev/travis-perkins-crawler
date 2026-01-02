@@ -227,7 +227,9 @@ def write_csv(supplier, scope, record):
                 "sale_unit", "pack_qty", "pack_uom", "basis", "vat_mode", "price_ex_vat", "price_inc_vat",
                 "display_unit_price_value", "display_unit_price_basis", "currency", "effective_date", "location", "product_details"
                   ]
-    filename = supplier + "_" + scope + "_" + date.today().strftime("%Y%m%d") + ".csv"
+
+    os.makedirs('./data', exist_ok=True)
+    filename = "./data/" + supplier + "_" + scope + "_" + date.today().strftime("%Y%m%d") + ".csv"
 
     file_exists = os.path.exists(filename)
     file_empty = (not file_exists) or (os.path.getsize(filename) == 0)
