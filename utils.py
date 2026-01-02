@@ -211,7 +211,7 @@ def get_data(driver, soup, category, is_login):
         'vat_mode': vat_mode.upper().split(".", 1)[0],
         'price_ex_vat': price_ex_vat[1:],
         'price_inc_vat': price_inc_vat[1:],
-        'display_unit_price_value': unit_price,
+        'display_unit_price_value': unit_price[1:],
         'display_unit_price_basis': unit_basis,
         'currency': price_inc_vat[0],
         'effective_date': date.today().strftime("%d/%m/%Y"),
