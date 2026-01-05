@@ -14,7 +14,11 @@
 # 7. Install python package: ```pip install -r .\requirements.txt```
 <img width="1596" height="454" alt="image" src="https://github.com/user-attachments/assets/549d68c4-d4b1-4e01-87f5-bccf953ff1bf" />
 
-# 8. Run crawler:
+# 8. Install google-chrome-stable (deb)
+* ```wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb```
+* ```sudo apt-get install -y ./google-chrome-stable_current_amd64.deb```
+
+# 9. Run crawler:
 * ```python main.py``` -> Crawl data without login to get retail price
 <img width="1614" height="146" alt="image" src="https://github.com/user-attachments/assets/1aa92ebb-b1b1-4e2f-936a-5f797c0d1409" />
 
