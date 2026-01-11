@@ -8,19 +8,17 @@
 <img width="1417" height="328" alt="image" src="https://github.com/user-attachments/assets/5c062566-e17f-4cd0-a34e-a561998effbd" />
 
 # 5. Create virtual environment: ```python -m venv .venv```
-# 6. Active virtual environment (on Window): ```./.venv/Scripts/activate```
+# 6. Active virtual environment
+* Window: ```./.venv/Scripts/activate```
+* MacOS: ```source ./.venv/bin/activate```
 <img width="1602" height="181" alt="image" src="https://github.com/user-attachments/assets/29950c93-5d23-432b-8c7b-80dec4e3c0d1" />
 
 # 7. Install python package: ```pip install -r .\requirements.txt```
 <img width="1596" height="454" alt="image" src="https://github.com/user-attachments/assets/549d68c4-d4b1-4e01-87f5-bccf953ff1bf" />
 
-# 8. Install google-chrome-stable (deb)
-* ```wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb```
-* ```sudo apt-get install -y ./google-chrome-stable_current_amd64.deb```
-
 # 9. Run crawler:
-* ```python main.py``` -> Crawl data without login to get retail price
+* ```python main.py --page travis_perkins --mode retail``` -> Crawl data from Travis Perkins without login to get retail price
 <img width="1614" height="146" alt="image" src="https://github.com/user-attachments/assets/1aa92ebb-b1b1-4e2f-936a-5f797c0d1409" />
 
-* ```python main.py --mode trade``` -> Login before crawl data to get trade price
+* ```python main.py --page travis_perkins --mode trade``` -> Login before crawl data from Travis Perkins to get trade price
 <img width="1614" height="146" alt="image" src="https://github.com/user-attachments/assets/4ad2d1c6-38dc-4223-9394-32c0a0c1f106" />
