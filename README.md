@@ -16,7 +16,7 @@
 # 7. Install python package: ```pip install -r .\requirements.txt```
 <img width="1830" height="332" alt="image" src="https://github.com/user-attachments/assets/69ea5c49-c431-48ae-89c4-07455f6a3bc7" />
 
-# 9. Run crawler:
+# 8. Run crawler:
 * ```python main.py --page travis_perkins --mode retail``` -> Crawl data from Travis Perkins without login to get retail price
 <img width="1827" height="342" alt="image" src="https://github.com/user-attachments/assets/c48f82b7-3498-4571-830c-cef7a6ffc64e" />
 
