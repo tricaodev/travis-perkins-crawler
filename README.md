@@ -14,11 +14,11 @@
 <img width="1829" height="341" alt="image" src="https://github.com/user-attachments/assets/e9abb8cf-9973-4de4-8ca1-29585b1566a2" />
 
 # 7. Install python package: ```pip install -r .\requirements.txt```
-<img width="1831" height="336" alt="image" src="https://github.com/user-attachments/assets/d725f73f-4a9f-4137-a1d5-d8438e9be7b9" />
+<img width="1830" height="332" alt="image" src="https://github.com/user-attachments/assets/69ea5c49-c431-48ae-89c4-07455f6a3bc7" />
 
 # 9. Run crawler:
 * ```python main.py --page travis_perkins --mode retail``` -> Crawl data from Travis Perkins without login to get retail price
-<img width="1827" height="339" alt="image" src="https://github.com/user-attachments/assets/af5ddcae-22ee-42fb-8d79-9053083a6d06" />
+<img width="1827" height="342" alt="image" src="https://github.com/user-attachments/assets/c48f82b7-3498-4571-830c-cef7a6ffc64e" />
 
 * ```python main.py --page travis_perkins --mode trade``` -> Login before crawl data from Travis Perkins to get trade price
-<img width="1828" height="344" alt="image" src="https://github.com/user-attachments/assets/9390c285-2a4a-4730-9812-7469bfa5147d" />
+<img width="1831" height="342" alt="image" src="https://github.com/user-attachments/assets/167038d1-713f-46c9-9932-d368d5e294df" />
