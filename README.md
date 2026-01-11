@@ -18,7 +18,7 @@
 
 # 9. Run crawler:
 * ```python main.py --page travis_perkins --mode retail``` -> Crawl data from Travis Perkins without login to get retail price
-<img width="1614" height="146" alt="image" src="https://github.com/user-attachments/assets/1aa92ebb-b1b1-4e2f-936a-5f797c0d1409" />
+<img width="1827" height="339" alt="image" src="https://github.com/user-attachments/assets/af5ddcae-22ee-42fb-8d79-9053083a6d06" />
 
 * ```python main.py --page travis_perkins --mode trade``` -> Login before crawl data from Travis Perkins to get trade price
-<img width="1614" height="146" alt="image" src="https://github.com/user-attachments/assets/4ad2d1c6-38dc-4223-9394-32c0a0c1f106" />
+<img width="1828" height="344" alt="image" src="https://github.com/user-attachments/assets/9390c285-2a4a-4730-9812-7469bfa5147d" />
